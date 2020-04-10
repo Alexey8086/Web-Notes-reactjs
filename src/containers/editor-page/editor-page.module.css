@@ -1,0 +1,224 @@
+body {
+  background-color: #222222;
+  margin: 0;
+  padding: 0;
+  color: rgb(238, 225, 231);
+  overflow-y: visible;
+}
+
+::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(41, 42, 49);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(126, 124, 124);
+  border-radius: 15px;
+}
+
+/* ::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(243, 237, 237);
+} */
+
+::-webkit-scrollbar-button {
+  background-color: rgb(32, 33, 39);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: black;
+}
+
+/* SMARTPHONE */
+@media (min-width: 300px) and (max-width: 760px) {
+
+  .parent_container {
+    background-color: rgb(36, 36, 37);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100vh, max-content);
+    padding: 0.5rem;
+  }
+
+  .workspace_container {
+    background-color: rgb(36, 36, 37);
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+    margin-top: 10px;
+    outline: none;
+  }
+
+  /* .editorjs {
+    border: none;
+    background-color: rgb(36, 36, 37);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: rgb(197, 194, 194);
+    font-size: 1.3rem;
+    font-family: monospace;
+    padding-top: 20px;
+
+    outline: none;
+    resize: none;
+    overflow: auto;
+  } */
+
+
+  .ce-toolbar--opened, .ce-block, .ce-block--focused {
+      background-color: rgb(36, 36, 37);
+  }
+
+  .empty_left_column, .empty_right_column {
+    display: none;
+  }
+
+}
+
+/* TABLET */
+@media (min-width: 761px) and (max-width: 1113px) {
+
+  .parent_container {
+    background-color: rgb(24, 25, 29);
+    display: grid;
+    grid-template-columns: 0.2fr 3fr 0.2fr ;
+    grid-template-rows: minmax(100vh, max-content);
+  }
+
+  .workspace_container {
+    background-color: rgb(36, 36, 37);
+    display: grid;
+    grid-template-columns: 100%;
+    box-sizing: border-box;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 20px;
+    outline: none;
+  }
+
+  /* .editorjs {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgb(36, 36, 37);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: rgb(197, 194, 194);
+    font-size: 1.5rem;
+    font-family: monospace;
+    padding-top: 20px;
+
+    outline: none;
+    resize: none;
+    overflow: auto;
+  } */
+
+  .empty_left_column, .empty_right_column {
+    background-color: rgb(24, 25, 29);
+  }
+
+  /* .editor>div {
+    background-color: rgb(36, 36, 37);
+  } */
+}
+
+/* DESKTOP */
+@media (min-width: 1114px) and (max-width: 1258px) {
+  .parent_container {
+    background-color: rgb(24, 25, 29);
+    display: grid;
+    grid-template-columns: 0.8fr 3fr 0.8fr ;
+    grid-template-rows: minmax(100vh, max-content);
+  }
+
+  .workspace_container {
+    background-color: rgb(36, 36, 37);
+    display: grid;
+    grid-template-columns: 100%;
+    box-sizing: border-box;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 20px;
+    padding: 0px 25px 0px 25px;
+    outline: none;
+  }
+
+  /* .editor {
+    border: none;
+    background-color: rgb(36, 36, 37);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: rgb(197, 194, 194);
+    font-size: 1.5rem;
+    font-family: monospace;
+    padding-top: 20px;
+
+    outline: none;
+    resize: none;
+    overflow: auto;
+  } */
+
+  .empty_left_column {
+    background-color: rgb(24, 25, 29);
+  }
+
+  .empty_right_column {
+    background-color: rgb(24, 25, 29);
+  }
+
+  /* .editor>div {
+    background-color: rgb(36, 36, 37);
+  } */
+}
+
+/* LARGE DEVICES */
+@media (min-width: 1259px) {
+  .parent_container {
+    background-color: rgb(24, 25, 29);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr ;
+    grid-template-rows: minmax(100vh, max-content);
+  }
+
+  .empty_left_column {
+    background-color: rgb(24, 25, 29);
+  }
+
+  .empty_right_column {
+    background-color: rgb(24, 25, 29);
+  }
+
+  .workspace_container {
+    background-color: rgb(36, 36, 37);
+    display: grid;
+    grid-template-columns: 100%;
+    box-sizing: border-box;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-top: 35px;
+    margin-top: 20px;
+    outline: none;
+  }
+
+  /* .editorjs {
+    border: none;
+    background-color: rgb(36, 36, 37);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: rgb(197, 194, 194);
+    font-size: 1.5rem;
+    font-family: monospace;
+
+    outline: none;
+    
+    resize: none;
+    overflow: auto;
+    
+  } */
+
+}

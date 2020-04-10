@@ -1,0 +1,12 @@
+.item-note {
+  background-color: rgb(61, 58, 77);
+  border-radius: 10px;
+
+  transition: 0.8s;
+  padding: 12px;
+  font-size: small;
+}
+
+.item-note:hover{
+  background-color: rgb(82, 78, 102);
+}

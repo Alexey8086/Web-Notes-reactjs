@@ -1,0 +1,25 @@
+.container-sidebar {
+  background-color: rgb(24, 25, 29);
+}
+
+.sidebar {
+  background-color: rgb(24, 25, 29);
+  box-shadow: 3px 0px 10px 2px rgba(10, 11, 12, 1);
+  /* background: linear-gradient(30deg, rgb(40, 40, 40), rgb(63, 57, 63)); */
+    
+  height: 100vh;
+  width: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+  .container-sidebar, .sidebar {
+  /* background-color: rgb(24, 25, 29); */
+  display: none;
+  }
+
+}
