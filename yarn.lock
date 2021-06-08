@@ -971,6 +971,16 @@
     codex-notifier "^1.1.2"
     codex-tooltip "^1.0.0"
 
+"@editorjs/header@^2.4.0":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/header/-/header-2.6.1.tgz#454a46e4dbb32ae3aa1db4d22b0ddf2cc36c3134"
+  integrity sha512-EsnyVFv5uThpU9tbQ/dUPFCQoa/sBFy2n+9tN3wOXJGx7sjea4fdcacJ2UYhO+7pCgZ+aSgmMOyGLYHUFbchvA==
+
+"@editorjs/list@^1.4.0":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@editorjs/list/-/list-1.6.2.tgz#38cb307d78ec8b6c55480c538805cdc2ff250ad1"
+  integrity sha512-OxowV0yuE11G01czYM1dEQlz1F37ehX0ak5vAbZ9ncSXrPh0fDRw/fBxTY654FlmrsQ40UFom3owSG++tLvVGw==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -6503,9 +6513,9 @@ memory-fs@^0.5.0:
     readable-stream "^2.0.1"
 
 merge-deep@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.2.tgz#f39fa100a4f1bd34ff29f7d2bf4508fbb8d83ad2"
-  integrity sha512-T7qC8kg4Zoti1cFd8Cr0M+qaZfOwjlPDEdZIIPPB2JZctjaPM4fX+i7HOId69tAti2fvO6X5ldfYUONDODsrkA==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.3.tgz#1a2b2ae926da8b2ae93a0ac15d90cd1922766003"
+  integrity sha512-qtmzAS6t6grwEkNrunqTBdn0qKwFgNWvlxUbAV8es9M7Ot1EbyApytCnvE0jALPa46ZpKDUo527kKiaWplmlFA==
   dependencies:
     arr-union "^3.1.0"
     clone-deep "^0.2.4"
